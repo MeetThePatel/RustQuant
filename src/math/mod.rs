@@ -67,16 +67,20 @@
 pub mod integration;
 pub use integration::*;
 
-/// Numerical optimization and root-finding routines.
-pub mod optimization {
-    /// Gradient descent optimization.
-    pub mod gradient_descent;
-    pub use gradient_descent::*;
+// /// Numerical optimization and root-finding routines.
+// pub mod optimization {
+//     /// Gradient descent optimization.
+//     pub mod gradient_descent;
+//     pub use gradient_descent::*;
 
-    /// Newton-Raphson method.
-    pub mod newton_raphson;
-    pub use newton_raphson::*;
-}
+//     /// Newton-Raphson method.
+//     pub mod newton_raphson;
+//     pub use newton_raphson::*;
+// }
+// pub use optimization::*;
+
+/// Numerical optimization and root-finding routines.
+pub mod optimization;
 pub use optimization::*;
 
 /// Fast fourier transform.
